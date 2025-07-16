@@ -1,0 +1,15 @@
+<html>
+  <head><title>HTML frame sample</title></head>
+  <framesets rows="20%,80%">
+     <frame src="main_frame.html">
+    <framesets cols="25%,75%">
+      <frame src="left_frame.html">
+      <frame src="right_frame.html">
+    </framesets>
+  </noframes>
+    <body>
+      your sjbwhvbwhbcjwncbjehrvbjkrebfcjrebfjkdsn
+    </body>
+  </noframesets>
+  </framesets>  
+</html>
