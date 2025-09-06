@@ -1,0 +1,55 @@
+<-- this experiment contain three html files and few images -->
+
+
+
+
+       <-- first html file, name="exp4.html"-->
+<html>
+<head><title>html frame example</title></head>
+<frameset cols = "10%,90%">
+       <frame src = "LeftFrame.html" name="navFrame">
+       <frame src="rightFrame.html" name="contentFrame">
+<noframes>
+      oops, Your device does not support fames/frameset
+</noframes>
+</frameset>
+</html>
+
+
+
+              <-- second html file, name="leftFrame.html" -->
+<html>
+  <head>
+    <title>Navigation Frame</title>
+  </head>
+  <body style="background-color: grey">
+    <h3>Select</h3>
+    <ul>
+      <li><a href="bmw.jpg" target="contentFrame">BMW M5</a></li>
+      <br />
+      <li><a href="audi.jpg" target="contentFrame">AUDI</a></li>
+      <br />
+      <li><a href="gt3rs.jpg" target="contentFrame">PORCHE</a></li>
+      <br />
+      <li><a href="ferrari.jpg" target="contentFrame">FERRARI</a></li>
+      <br />
+      <li><a href="bugatti.jpg" target="contentFrame">BUGATTI</a></li>
+      <br />
+      <li><a href="rightFrame.html" target="contentFrame">Home</a></li>
+    </ul>
+  </body>
+</html>
+
+
+                     <-- third html file, name="rightFrame.html" -->
+<html>
+  <head>
+    <title>contentFrame</title>
+  </head>
+  <body>
+    <h3>You're on the home page</h3>
+    <p>
+      click on the name of your favourite car on the navigation frame and enjoy
+    </p>
+  </body>
+</html>
